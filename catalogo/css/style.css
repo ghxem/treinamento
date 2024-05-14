@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  font-family: monospace, sans-serif;
+}
+
+a {
+  color: rgb(216, 216, 216);
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+a:hover {
+  color: rgb(253, 253, 253);
+}
+
+h1,
+h2 {
+  color: rgb(158, 17, 17);
+  font-family: "Jaini Purva", system-ui;
+  font-size: 3em;
+}
+
+h1:hover {
+  color: rgb(0, 0, 0);
+  font-size: 2.95em;
+  transition: all 0.3s ease;
+}
+h2:hover {
+  color: rgb(255, 255, 255);
+  font-size: 2.95em;
+  transition: all 0.3s ease;
+}
+
+h2:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra */
+}
+
+.a1 {
+  font-family: "Jaini Purva", system-ui;
+  color: whitesmoke;
+}
+
+#area-cabecalho {
+  background: linear-gradient(to right, #9c0000, #2c0000);
+  padding: 10px;
+  text-align: center;
+}
+
+#area-cabecalho:hover {
+  background: linear-gradient(to right, #9c0000, #2c0000);
+  padding: 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Cor de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3a3a3a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #272727;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box img {
+  padding: 14px;
+  width: 45%;
+  background: radial-gradient(
+    circle at -4% -12.9%,
+    rgb(74, 98, 110) 0.3%,
+    rgb(30, 33, 48) 90.2%
+  );
+  box-shadow: 10px 10px 20px rgba(48, 7, 7, 0.2);
+}
+
+.box div {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+button {
+  margin: 6px;
+  padding: 9px;
+  color: white;
+  background-color: #9c0000;
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+  border-color: #9c0000;
+  transition: all 0.3s ease; /* Adiciona a transição apenas no estado :hover */
+}
+
+button:hover {
+  color: aliceblue;
+  background-color: #000000;
+  width: 96px;
+  height: 38px;
+  border-color: #000000;
+}
+footer {
+  padding: 15;
+  text-align: center;
+  font-family: monospace;
+  font-size: 18px;
+}
